@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main ()
+
+{
+	
+	int a, b ,  c, d;
+	
+	cout << " Input the number for A "; cin >>  a;     
+	cout << " Input the number for B "; cin >>  b;
+	cout << " Input the number for C "; cin >>  c;
+	
+	if (a>b )
+	{ 
+	    if (a>c) { cout<< " A is larger"; 
+		}  else cout<< "c is larger";
+	}   
+	else if (b>c) { cout<< " B is larger";}
+	 else  cout<< " C is larger";
+	 
+}
